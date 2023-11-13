@@ -79,3 +79,39 @@ renamed model folder to view model
 
 12:36
 modified startup.cs 
+
+12:40
+created a new class inside the kiranBooks.utility called SD.cs
+
+Added project reference for utility in KiranBook store
+
+12:43
+Added refernce in Dataaccess project for utility and model
+
+12:45
+Added the area as customer
+
+12:47
+added the startup routes.
+
+
+12:49
+Moved the home controller to Area>Cutsomer>Controller folder and deleted the Data and model folder.
+
+ran the program 
+
+12:51
+Moved the home controller to Area>Cutsomer>Controller folder and deleted the Data and model folder.
+
+12:55
+modfied the viewStart.cshtml file to reflect new path
+
+1:00 
+
+Added the new Area called Admin 
+
+deleted the controllers folder 
+
+
+1:07
+Updated the github repo
