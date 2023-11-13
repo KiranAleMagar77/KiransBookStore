@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KiransBooks.DataAccess\KiransBooks.DataAccess.csproj" />
+    <ProjectReference Include="..\KiransBooks.Models\KiransBooks.Models.csproj" />
+  </ItemGroup>
+
 </Project>

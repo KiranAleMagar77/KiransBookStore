@@ -1,4 +1,5 @@
 using KiransBookStore.Data;
+using KiransBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KiransBookStore
+namespace KiransBookStore.Data
 {
     public class Startup
     {

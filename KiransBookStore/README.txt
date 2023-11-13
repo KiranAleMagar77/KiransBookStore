@@ -61,3 +61,21 @@ and copied the data folder inside the dataaccess project and deleted the origina
 
 12:25
 Installing the Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages
+
+12:27
+deleted the migration folder
+
+12:29
+modified the namespace and deleted the class1.cs file from each project
+
+
+12:32
+i cut the model folder form it original position and added it to  kiranBooks.Models project
+
+12:33
+added the project reference---- .DataAccess and .Models
+
+renamed model folder to view model
+
+12:36
+modified startup.cs 
