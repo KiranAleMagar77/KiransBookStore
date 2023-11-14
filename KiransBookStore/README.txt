@@ -115,3 +115,30 @@ deleted the controllers folder
 
 1:07
 Updated the github repo
+
+----------------------------------------------------------------------------------------------
+
+2023-11-13
+
+10-07
+Started to do the project again.
+
+10:08
+Build the solution to check the project error and whather it is running properly or not 
+
+10:09
+reviewed the appsettings.json
+
+Modified the database name and saved it
+
+10:12
+Added new migration by running the code given below in pacakage manager console
+add-migration AddDefultIdentityMigration
+
+10-14
+udpdated the database
+update-database
+
+10-18
+checked for the sql server explorer and 
+ran the application 
