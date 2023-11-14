@@ -1,3 +1,5 @@
+using KiransBooks.DataAccess.Repository;
+using KiransBooks.DataAccess.Repository.IRepository;
 using KiransBookStore.Data;
 using KiransBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
@@ -33,8 +35,10 @@ namespace KiransBookStore.Data
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+            //removed 'options => options.SignIn.RequireConfirmedAccount = true'
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

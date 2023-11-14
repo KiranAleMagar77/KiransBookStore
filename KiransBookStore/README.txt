@@ -199,3 +199,42 @@ now implemented the reference
 now again modifing the code
 
 built the project and it build succesfully
+
+12:21
+added a new interface inside iRepository folder and modified 
+
+and install package daper
+
+and again modified the code
+
+
+12:28
+made a new class called SP_Call.cs
+--------------------------------------------------------------------------------------------
+
+
+2023-11-14
+
+11-13
+Added the using in the SP_Call
+
+using KiransBooks.DataAccess.Repository.IRepository;
+
+and added the interface
+
+11:43
+modified the SP_call.cs
+
+
+11:47
+created the new interface item as UnitOfWork.cs and modififed it.
+
+11:52
+created a new class inside the Repository folder and modified it 
+
+
+12:23
+modified the startup.cs to make it accessible by the project 
+
+12:26
+bulid the project and corrected the errors
