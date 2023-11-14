@@ -142,3 +142,17 @@ update-database
 10-18
 checked for the sql server explorer and 
 ran the application 
+
+10:45
+Added a new class called category.cs 
+and modidied it
+
+10:50
+added the migration 
+add-migration AddCategoryToDb
+
+10:52
+modified the applicationdbcontext.cs:
+
+public DbSet<Category> Categories { get; set; }
+
