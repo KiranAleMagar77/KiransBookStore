@@ -238,3 +238,19 @@ modified the startup.cs to make it accessible by the project
 
 12:26
 bulid the project and corrected the errors
+
+12:35
+added a new mvc controller  called CategoryController.cs
+
+and modified the code to use the IUnitOfWork .
+
+12:53
+added new folder called Category inside area>admin>views
+
+and added a new razor view called Index.cshtml and modified the code as given and ran the application but it was not showing 
+
+and i had to manually type the link and it works
+
+12:57
+edited tge layout.cshtml inside shared folder to add the category by editing privacy nav item
+
