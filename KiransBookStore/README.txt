@@ -156,3 +156,46 @@ modified the applicationdbcontext.cs:
 
 public DbSet<Category> Categories { get; set; }
 
+10:55
+again have to delete the pervious addCategoryToDb and again ran the add-migration 
+after that the db was populated 
+
+11:06
+now stared to do it again 
+
+made a Repository folder inside .dataaccess and inside repository made IRepository 
+
+
+and inside that folder made a new class called IRepository and modified it 
+so that it can be used in category class to do all the CRUD operation
+
+
+11:22
+Added the method to:
+Get item from the DB
+List of Categories
+add object
+remove object
+
+11:52
+added the new class called repository 
+and modified the class 
+
+added the code given in assignment folder
+to create the contructor and dependency injection
+
+
+12:05
+modified the CategoryRepository.cs
+
+12:06
+modidfing the ICategoryRepository.cs
+
+now after modifing had error in CategoryRepository.cs
+
+now implemented the reference
+
+12:10
+now again modifing the code
+
+built the project and it build succesfully
