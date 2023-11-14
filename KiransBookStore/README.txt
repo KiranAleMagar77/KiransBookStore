@@ -252,5 +252,46 @@ and added a new razor view called Index.cshtml and modified the code as given an
 and i had to manually type the link and it works
 
 12:57
-edited tge layout.cshtml inside shared folder to add the category by editing privacy nav item
+edited the layout.cshtml inside shared folder to add the category by editing privacy nav item
+
+1:05
+now addid the icon inside the category to edit and delete the categories 
+
+1:10
+added a new js file called category.js inside the wwwroot directory 
+ and added the given code inside the js file
+
+added the script inside the index.cshtml inside the admin 
+
+1:15
+added the code to activate the edit delete and create using upsert action
+
+1:20
+
+created a new cshtml file called upsert.cshtml and added the code given in the asssignemnt folder
+
+1:25
+and created a new partial view inside the shared folder called 
+
+_CreateAndBackToListButton and 
+_EditAndbackToListButton 
+
+1:27
+modified the upsert.cshtml
+@model KiransBooks.Models.Category;
+
+1:30
+modified index.cshtml by adding asp-action and run the application
+
+1:36
+modify  the uspert.cshtml
+edited the title as edit category
+and anme as catergory name 
+
+
+
+
+
+
+
 

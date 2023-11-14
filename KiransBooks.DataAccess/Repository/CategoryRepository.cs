@@ -26,7 +26,7 @@ namespace KiransBooks.DataAccess.Repository
             if (objFormDb != null) ///save changes if not null
             {
                 objFormDb.Name = category.Name;
-                _db.SaveChanges();
+                //_db.SaveChanges();
             }
         }
     }
