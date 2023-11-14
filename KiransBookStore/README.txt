@@ -286,8 +286,13 @@ modified index.cshtml by adding asp-action and run the application
 1:36
 modify  the uspert.cshtml
 edited the title as edit category
-and anme as catergory name 
+and named as catergory name 
 
+
+1:45
+modified the category.js 
+
+and ran the  program
 
 
 
