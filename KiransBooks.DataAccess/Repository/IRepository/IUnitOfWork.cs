@@ -9,6 +9,7 @@ namespace KiransBooks.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
+        ICoverTypeRepository CoverType { get; }  // add properties for covertypr repository
         ISP_Call SP_Call { get; }
 
         void Save();

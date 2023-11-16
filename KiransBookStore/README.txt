@@ -296,6 +296,30 @@ and ran the  program
 
 
 
+-----------------------------------------------------------------
+
+2023-11-16
+
+4:37
+Stared to do the 3rd part of the project
+
+5:04
+made 2 new classes inside repository and irepository as CoverTypeRepository.cs And ICoverTypeRepository.cs
+
+modified the files as i did it for CategoryRepository.cs and  ICategoryRepository.cs
+
+5:10
+modifed the code in Iunitofwork and unit of work to include covertyperepository
+
+5:11
+added the migration 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+20231116221139_AddCoverTypeToDb
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+5:16
+modified the layout and added the controller for covertype to include the cover type in the page
+
 
 
 
