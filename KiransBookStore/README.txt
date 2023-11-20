@@ -323,4 +323,30 @@ modified the layout and added the controller for covertype to include the cover 
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+2023-10-20
+2:35
+
+added a new class called product.cs 
+and modified the codes
+
+2:40
+added the reference to the new product in database in applicationDbcontext.cs file
+
+2:45
+added the migration of the product
+<<<<<<<<<<<<
+20231120194409_AddProductToDb
+>>>>>>>>>>
+
+and updated the database
+
+
+
+
+
+
+
+
 

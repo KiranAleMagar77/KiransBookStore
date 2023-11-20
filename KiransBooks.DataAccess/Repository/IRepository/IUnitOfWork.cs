@@ -10,6 +10,8 @@ namespace KiransBooks.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepository CoverType { get; }  // add properties for covertypr repository
+
+        IProductRepository Product { get; }  // add properties for covertypr repository
         ISP_Call SP_Call { get; }
 
         void Save();
