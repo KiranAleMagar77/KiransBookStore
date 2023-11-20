@@ -343,6 +343,46 @@ added the migration of the product
 and updated the database
 
 
+4:11
+addded the product controller
+
+
+4:15
+added the IWebHostEnvironment calll and installed the microsoft.ASP.NETCore.Hosting 
+
+4:20
+Added the new clas called ProductVM and created  view model to hold product object and select list for Category and CoverType
+
+4:30
+installed the microsoft.aspnet.Mvc.viewFeatures package.
+
+4:50
+modified the productContorller so the Iactionresult 
+
+included the using statment to viewmodels and microsoft.aspnetcore.mvc.rendering 
+
+
+5:00 
+commented out the upsert post method.
+
+5:10
+modified the api call to include category and covertype
+
+
+5:20
+created a new index view for product
+
+and added title, isbn , price, author, category
+addded teh reference to product.js
+
+
+5:30
+in product.js modified the url to point to product
+
+
+5:41
+modfied the layout.js and ran the program
+
 
 
 

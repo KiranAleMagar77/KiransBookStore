@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KiransBooks.Models.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -29,8 +30,6 @@ namespace KiransBooks.Models
         public int CoverTypeId { get; set; }   //foreign key reference
         [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
-
-
 
     }
 }
