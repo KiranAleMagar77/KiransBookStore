@@ -384,6 +384,34 @@ in product.js modified the url to point to product
 modfied the layout.js and ran the program
 
 
+------------------------------------------------------------------------------------------------------------
+
+2024-11-21
+11:23
+added a rich textbox to the textarea inside product with tiny.cloud
+and ran the application
+
+11:25
+made a new folder and subfolder called images and products respectively 
+
+11:30 
+uncommented the method in productconrtoller
+and ran the program but the cover type was showing the same options as category
+
+11:38
+To solve that problem modifed the  upsert.cshtml in product
+
+
+@Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
+new { @class = "form-control" })
+<span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
+
+11:39 
+ran the project 
+
+
+
+
 
 
 

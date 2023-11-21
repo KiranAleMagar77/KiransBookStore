@@ -58,27 +58,29 @@ namespace KiransBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult Upsert(Product product)
-        //{
-            //if (ModelState.IsValid)
-           // {
-             //   if (product.Id == 0)
-              //  {
-             //       _unitOfWork.Product.Add(product);
-             //   }
-              //  else
-             //   {
-              //      _unitOfWork.Product.Update(product);
-             //   }
+        //use  HTTP post to define the post-action method
 
-              //  _unitOfWork.Save();
-             //   return RedirectToAction(nameof(Index));
-          //  }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)
+           {
+               if (product.Id == 0)
+               {
+                    _unitOfWork.Product.Add(product);
+              }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
 
-        //    return View(product);
-       // }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+
+           return View(product);
+        }
 
         #region API CALLS
         [HttpGet]
