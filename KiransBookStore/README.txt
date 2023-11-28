@@ -410,6 +410,31 @@ new { @class = "form-control" })
 ran the project 
 
 
+---------------------------------------------------------------------------------
+12:00
+started  to the project again 
+
+12:20
+doing by comparing the github provided
+
+12:30
+modifying the upsert.cs of the product to view new fields.
+
+12:35
+added images to the wwwroot folder inside images/product folder
+
+12:40
+modified the home controller 
+
+1:30 
+added the migration to add the validation
+20231128181827_AddValidationToProduct.
+
+1:40
+tried to modify every possible file but still the product is not adding to the database now i gave up.
+
+
+
 
 
 
