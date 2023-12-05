@@ -433,8 +433,12 @@ added the migration to add the validation
 1:40
 tried to modify every possible file but still the product is not adding to the database now i gave up.
 
+--------------------------------------------------------------------------------------------------------------
 
+2023-12-05
 
+15:00
+adding the readme.md
 
 
 
